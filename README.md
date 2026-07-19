@@ -1,4 +1,5 @@
  #Zero Voltage Switching (ZVS) Flyback Driver/Induction Heater
+ 
  This repository contains a KiCad schematic and PCB design for a high-efficiency Mazzilli Zero Voltage Switching (ZVS) Driver. This circuit is widely used for driving high-voltage transformers (like television flybacks), induction heaters, and Tesla coils due to its simplicity, high efficiency, and minimal thermal generation.
  
   FeaturesZero Voltage Switching: The MOSFETs switch states only when the voltage across them drops to zero, drastically reducing switching losses and keeping the transistors cool.High-Current Handling: Utilizes heavy-duty IRFP4468PbF N-channel MOSFETs.Robust Gate Protection: Features dual $ Zener diodes and  pull-up resistors to prevent gate overvoltage and ensure rapid switching.
