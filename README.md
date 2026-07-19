@@ -1,5 +1,22 @@
+# Zero Voltage Switching Circuit
+
+This is an LC tank oscillator circuit which uses two mosfets to feed the damping power to the LC tank...and use the output waveform to drive a High voltage transformer or an Induction heating coil.
+
+---
+
+## Repository Structure
+
+```
+├── docs/                   # Datasheet IRFP4468PbF n-channel MOSFET
+├── manufacturing/          # Gerbers & BOM
+│   ├── gerbers/            # Gerber and drill files for PCB fabrication
+│   ├── bom/                # Bill of Materials (.csv or .xlsx)
+├── ZVS.kicad_pcb  # KiCad PCB Layout file
+├── ZVS.kicad_sch  # KiCad Schematic file
+├── ZVS.kicad_pro  # KiCad Project file
+└── README.md               # This file
  #Zero Voltage Switching (ZVS) Flyback Driver/Induction Heater
- 
+ ```
  This repository contains a KiCad schematic and PCB design for a high-efficiency Mazzilli Zero Voltage Switching (ZVS) Driver. This circuit is widely used for driving high-voltage transformers (like television flybacks), induction heaters, and Tesla coils due to its simplicity, high efficiency, and minimal thermal generation.
  
   Features:
