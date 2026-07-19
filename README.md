@@ -10,7 +10,7 @@ This is an LC tank oscillator circuit which uses two mosfets to feed the damping
 ├── docs/                   # Datasheet IRFP4468PbF n-channel MOSFET
 ├── manufacturing/          # Gerbers & BOM
 │   ├── gerbers/            # Gerber and drill files for PCB fabrication
-│   ├── bom/                # Bill of Materials (.csv or .xlsx)
+│   ├── bom/                # Bill of Materials (.csv )
 ├── ZVS.kicad_pcb  # KiCad PCB Layout file
 ├── ZVS.kicad_sch  # KiCad Schematic file
 ├── ZVS.kicad_pro  # KiCad Project file
